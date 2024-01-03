@@ -7,5 +7,5 @@ export default function handleResponseFromAPI(promise) {
   return promise
     .then(successHandler)
     .catch(errorHandler)
-    .finally(finallyHandler);
+    .finally(() => finallyHandler());
 }
