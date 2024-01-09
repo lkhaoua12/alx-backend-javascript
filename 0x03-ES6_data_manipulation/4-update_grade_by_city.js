@@ -7,7 +7,7 @@ export default function updateStudentGradeByCity(students = [], city = '', newGr
       if (updatedGrade) {
         student.grade = updatedGrade.grade;
       } else {
-        student.grade = 'N/a';
+        student.grade = 'N/A';
       }
 
       return student;
