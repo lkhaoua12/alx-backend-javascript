@@ -1,7 +1,7 @@
-// print arg to stdout
+// print to the sdtout
 
-function displayMessage (arg) {
-  console.log(arg);
+function displayMessage (argument) {
+  console.log(argument);
 }
 
 module.exports = displayMessage;
